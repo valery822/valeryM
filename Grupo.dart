@@ -25,8 +25,9 @@ class Grupo {
   void mostrarDatos Estudiantes() {
     
     for (Estudiante estudiante in estudiantes) {
-       print("Nombre: ${estudiante.obtenerNombre())");
-       pr
+       print("Nombre: ${estudiante.obtenerNombre()");
+       print("Fecha Nacimientto : ${estudiante.obtenerFechaNacimiento()}");
+       print("****************************");
    }
    
   }
